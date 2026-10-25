@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Cockpit Tools Provider",
+    "description": "Adds the local cockpit-tools OpenAI Responses API provider and curated model catalog to DSH."
+  }
+}

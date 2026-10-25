@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Cockpit Tools provider">
+  <rect x="5" y="5" width="86" height="86" rx="22" fill="#12243a"/>
+  <path d="M28 31h40M28 48h40M28 65h40" fill="none" stroke="#79d7c3" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="28" cy="31" r="7" fill="#f2bd67"/>
+  <circle cx="68" cy="48" r="7" fill="#f2bd67"/>
+  <circle cx="28" cy="65" r="7" fill="#f2bd67"/>
+</svg>

@@ -1,0 +1,28 @@
+{
+  "name": "@dsh-local/cockpit-tools-provider",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH configuration bundle for a local cockpit-tools reverse-proxy provider.",
+  "icon": "./icon.svg",
+  "exports": {
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "package.json",
+    "LICENSE",
+    "cordis.patch.yml",
+    "README.md",
+    "icon.svg",
+    "locale/*.json",
+    "models-exclude.json",
+    "sync-cockpit-models.mjs"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

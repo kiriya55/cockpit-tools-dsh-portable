@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Cockpit Tools 本地反代提供商",
+    "description": "为 DSH 添加本机 cockpit-tools OpenAI Responses API 提供商与可同步的模型目录。"
+  }
+}

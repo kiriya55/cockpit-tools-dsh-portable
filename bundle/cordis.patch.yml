@@ -1,0 +1,85 @@
+- id: llm-pi-ai
+  name: '@deepseek-ai/dsh-llm-pi-ai'
+  config:
+    providers:
+      # >>> cockpit-tools-sync (auto-generated; run sync-cockpit-models.mjs to refresh) >>>
+      cockpit-tools:
+        displayName: Cockpit Tools 反代
+        api: openai-responses
+        baseURL: http://127.0.0.1:51894/v1
+        apiKeyEnv: COCKPIT_TOOLS_API_KEY
+        defaultContextWindow: 272000
+        defaultMaxTokens: 32768
+        reasoning: medium
+        models:
+          - id: gpt-6.1-sol
+            name: GPT-6.1 Sol
+            contextWindow: 272000
+            input: [text]
+            reasoningEfforts:
+              low: low
+              medium: medium
+              high: high
+              xhigh: xhigh
+              max: max
+          - id: gpt-6-astra
+            name: GPT-6 Astra
+            contextWindow: 272000
+            input: [text]
+            reasoningEfforts:
+              low: low
+              medium: medium
+              high: high
+              xhigh: xhigh
+              max: max
+          - id: gpt-6-sol
+            name: GPT-6 Sol
+            contextWindow: 272000
+            input: [text]
+            reasoningEfforts:
+              low: low
+              medium: medium
+              high: high
+              xhigh: xhigh
+              max: max
+          - id: gpt-6-luna
+            name: GPT-6 Luna
+            contextWindow: 272000
+            input: [text]
+            reasoningEfforts:
+              low: low
+              medium: medium
+              high: high
+              xhigh: xhigh
+              max: max
+          - id: gpt-5.6-sol
+            name: GPT-5.6 Sol
+            contextWindow: 272000
+            input: [text]
+            reasoningEfforts:
+              low: low
+              medium: medium
+              high: high
+              xhigh: xhigh
+              max: max
+          - id: gpt-5.6-terra
+            name: GPT-5.6 Terra
+            contextWindow: 272000
+            input: [text]
+            reasoningEfforts:
+              low: low
+              medium: medium
+              high: high
+              xhigh: xhigh
+              max: max
+          - id: gpt-5.6-luna
+            name: GPT-5.6 Luna
+            contextWindow: 272000
+            input: [text]
+            reasoningEfforts:
+              low: low
+              medium: medium
+              high: high
+              xhigh: xhigh
+              max: max
+      # <<< cockpit-tools-sync <<<
